@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+body>header{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10rem;
+    
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+}
+nav>ul>li{
+    margin: 0 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+nav>ul>li:last-child>a{
+    font-weight: bold;
+}
+
+nav>ul>li>a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+main{
+    background-color: #F5F5F5;
+    
+}
+main>section{
+    padding: 50px 10rem;
+}
+main>section>h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 20rem;
+}
+main>section>ul{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+main>section>ul>li{
+    margin-right: 50px;
+}
+main>section>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+main>section>ul>li>a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+main>section>img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin-top: -15rem;
+    margin-right: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+article{
+    width: auto;
+    height: 30rem;
+    background-color: #EAF2FD;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+article>h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 10rem;
+}
+article>p{
+    font-size: 15px;
+    margin: 5px 10rem;
+}
+article>img{
+    width: 300px;
+    height: 100px;
+    margin: 0 10rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+.firma{
+    margin-left: 7rem;  
+}
+.skills, .hobbies{
+    width: auto;
+    height: 20rem;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10rem;
+}
+.skills>h2, .hobbies>h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.hobbies{
+    margin-top: -5rem;
+}
+.skills>.skills-container, .hobbies>.hobbies-container{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.skills>.skills-container>div, .hobbies>.hobbies-container>div{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border: 1px solid #EAF2FD;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 0 0.5rem;
+}
+.skills>.skills-container>div>i, .hobbies>.hobbies-container>div>i{
+    color: #2A7AE4;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 100px;
+}
+.skills>.skills-container>div>p, .hobbies>.hobbies-container>div>p{  
+    color: black;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.formacion{
+    width: auto;
+    height: 25rem;
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10rem;
+}
+.formacion>h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.formacion>.formacion-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.formacion>.formacion-container>div{
+    background-color: white;
+    width: 360px;
+    height: 360px;
+    padding: 20px 20px 0 20px;
+    margin: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formacion>.formacion-container>div>img{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+     
+}
+.formacion>.formacion-container>div>.descripcion{
+    background-color: #EAF2FD;
+    width: 100%;
+    padding: 20px;
+    
+}
+.formacion>.formacion-container>div>.conti{
+    width: 100%;
+    margin-top: 65px;
+    
+}
+.formacion>.formacion-container>div>.alura{
+    width: 80%;
+    margin-top: 20px;
+    
+}
+.formacion>.formacion-container>div>.free{
+    width: 100%;
+    margin-top: 85px;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #F5F5F5;
+} 
+    

@@ -110,7 +110,7 @@
                     <img class="free" src="assets/free.png" alt="">
                     <div class="descripcion">
                         <h3>FreeCodeCamp</h3>
-                        <p>2023 - FreeCodedCamp</p> 
+                        <p>2023 - FreeCodeCamp</p> 
                     </div>
                 </div>
             </div>
@@ -124,9 +124,9 @@
                         <h3>Encriptador de Textos</h3>
                         <p>Challengue Alura Codificador</p>
                     </div>
-                    <div class="buttons">
-                        <button>Repositorio</button>
-                        <button>Ver Demo</button>
+                    <div class="link">
+                        <a class="repo" href="">Repositorio</a>
+                        <a class="demo" href="">Ver demo</a>
                     </div>
                 </div>
             </div>
@@ -136,17 +136,34 @@
                         <h3>Pagina Navideña</h3>
                         <p>Varias animaciones navideñas</p>
                     </div>
-                    <div class="buttons">
-                        <button>Repositorio</button>
-                        <button>Ver Demo</button>
+                    <div class="link">
+                        <a class="repo" href="">Repositorio</a>
+                        <a class="demo" href="">Ver demo</a>
                     </div>
                 </div>
                 <img src="assets/navi.png" alt="">
             </div>
         </div>
         <div class="contacto">
-            <h2>Contacto</h2>
-            
+            <img src="assets/phone.png" alt="">
+            <form class="formulario" action="">
+                <h3>Contacto</h3>
+                <p>¿Quieres Contactarme?</p>
+                <p>Rellena el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
+    
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Ingrese el asunto" required>
+                
+                <label for="mensaje">Mensaje</label>
+                 <textarea id="mensaje" name="mensaje" placeholder="Ingrese su mensaje" required></textarea>
+    
+                 <button class="enviar" type="submit">Enviar</button>
+            </form>
         </div> 
     </main> 
     <footer>
